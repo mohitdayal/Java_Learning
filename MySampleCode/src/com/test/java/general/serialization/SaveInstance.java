@@ -1,5 +1,6 @@
 package com.test.java.general.serialization;
 
+import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectOutputStream;
@@ -17,14 +18,16 @@ public class SaveInstance {
 		
 			try {
 //				File f = new File("/Mohit.ser");
-				FileOutputStream fileOutputStream  = new FileOutputStream("C:\\Users\\Dayal00M\\Desktop\\MyData\\Mohit.ser");
+				File f = new File("test.ser");
+				String path = f.getAbsolutePath();
+				FileOutputStream fileOutputStream  = new FileOutputStream(path);
 				ObjectOutputStream  outputStream = new ObjectOutputStream(fileOutputStream);
 				outputStream.writeObject(employee);
 				outputStream.close();
 				fileOutputStream.close();
 				System.out.println("serialization done");
 				
-			} catch (IOException e) {
+			} catch (Exception e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
