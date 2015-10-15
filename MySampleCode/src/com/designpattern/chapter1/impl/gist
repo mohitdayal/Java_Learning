@@ -1,0 +1,14 @@
+"Objective: Separate what changes from what stays the same, call them behaviors and provide separate classes for them"
+
+With this design, other types of objects can reuse our fly and quack behaviors because these behaviors are 
+no longer hidden away in our Duck classes!
+
+And we can add new behaviors without modifying any of our existing behavior classes or touching any of the 
+Duck classes that use flying behaviors.
+
+
+"Program to an Interface without having to actually use a Java Interface"
+-- The point is to exploit POLYMORPHISM by programming to a SUPERTYPE so that the actual runtime object isn't locked into the code.
+
+e.g.: Animal a =new Dog();
+		a.XXXXX(); --> XXXXX() is available at the implementation time irrespective of whether the object is of type Dog() or something else. 
