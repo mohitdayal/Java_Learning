@@ -1,5 +1,5 @@
 
-package com.designpattern.chapter1.interfaces;
+package com.designpattern.chap1.strategy;
 
 public interface QuackBehaviour
 {

@@ -14,7 +14,8 @@ public class NumberClass {
 		Integer i = n.intValue();
 		System.out.println(i);
 		System.out.println(f);
-		
+		System.out.println(Character.forDigit(18, 19));
+		System.out.println(Character.isMirrored('{'));
 	}
 	
 }

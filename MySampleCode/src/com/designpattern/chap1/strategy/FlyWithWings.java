@@ -1,7 +1,5 @@
 
-package com.designpattern.chapter1.impl;
-
-import com.designpattern.chapter1.interfaces.FlyBehaviour;
+package com.designpattern.chap1.strategy;
 
 public class FlyWithWings implements FlyBehaviour
 {

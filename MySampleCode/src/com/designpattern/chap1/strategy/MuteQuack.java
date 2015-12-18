@@ -1,7 +1,5 @@
 
-package com.designpattern.chapter1.impl;
-
-import com.designpattern.chapter1.interfaces.QuackBehaviour;
+package com.designpattern.chap1.strategy;
 
 public class MuteQuack implements QuackBehaviour 
 {
