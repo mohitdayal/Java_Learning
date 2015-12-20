@@ -12,6 +12,14 @@ public class Simulator {
 		a.setData(new int[]{1});
 		a.setData(new int[]{2});
 		a.setData(new int[]{3});
+		
+		a.removeObserver(o1);
+		a.removeObserver(o2);
+		
+		a.setData(new int[]{4});
+		a.setData(new int[]{5});
+		a.setData(new int[]{6});
+		
 	}
 
 }
