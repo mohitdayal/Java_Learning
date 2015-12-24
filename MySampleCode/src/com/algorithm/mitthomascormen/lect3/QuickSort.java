@@ -27,7 +27,6 @@ public class QuickSort {
 		}
 		input[p] = input[i];
 		input[i] = pivot;
-		System.out.println("--"+i);
 		return i;
 	}
 
