@@ -1,4 +1,4 @@
-package com.algorithm.mitthomascormen.lect3;
+package com.algorithm.mitthomascormen.lect4;
 
 public class TestAlgos {
 
