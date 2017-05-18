@@ -11,6 +11,10 @@ public class InsertionSort {
 					input[j + 1] = input[j];
 					input[j] = key;
 				}
+				else
+				{
+				    break;
+				}
 				j--;
 			}
 		}

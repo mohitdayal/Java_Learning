@@ -8,7 +8,7 @@ public class QuickSort {
 			return;
 		}
 		int part = partition(input, p, q);
-		sort(input, p, part);
+		sort(input, p, part-1);
 		sort(input, part + 1, q);
 
 	}

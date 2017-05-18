@@ -8,7 +8,7 @@ public class TestAlgos {
 	
 	static void testQuickSort()
 	{
-		int[] inputarr = { 10,11,12,13,14,15,16,9, 8, 6, 7, 5, 4, 3, 2, 1 };
+		int[] inputarr = {6,5,3,1,8,7,2,4};
 		QuickSort ms = new QuickSort();
 		ms.sort(inputarr,0,inputarr.length-1);
 		for (int i : inputarr) {
